@@ -1,0 +1,3 @@
+Model,Mean_Duration,Std_Duration,Mean_Confidence,Std_Confidence,Mean_Final_Success,Std_Final_Success,Max_Duration,First_Success_Episode,Num_Runs
+normal,299.66,0.0,66.62568004157283,0.0,0.513,0.0,500,482.0,1
+depressed_mild,134.683,0.0,61.61719437129105,0.0,0.092,0.0,500,260.0,1

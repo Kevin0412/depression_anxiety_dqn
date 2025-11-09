@@ -1,0 +1,24 @@
+{
+  "normal": {
+    "mean_duration": 313.35,
+    "std_duration": 0.0,
+    "mean_confidence": 70.53725608540316,
+    "std_confidence": 0.0,
+    "mean_final_success": 0.538,
+    "std_final_success": 0.0,
+    "max_duration": 500,
+    "num_runs": 1,
+    "first_success_episode": 421.0
+  },
+  "depressed_mild": {
+    "mean_duration": 183.333,
+    "std_duration": 0.0,
+    "mean_confidence": 55.380487004422484,
+    "std_confidence": 0.0,
+    "mean_final_success": 0.154,
+    "std_final_success": 0.0,
+    "max_duration": 500,
+    "num_runs": 1,
+    "first_success_episode": 377.0
+  }
+}
