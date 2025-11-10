@@ -18,6 +18,7 @@
 环境与依赖（Linux，使用 conda）
 - 项目包含 `requirements.txt`：推荐使用 conda 环境并通过该文件安装依赖。
 - 可能仅在支持 NVIDIA CUDA 的 GPU 上直接工作；在 CPU 上运行可能需要修改代码（未专门适配 CPU）。
+- 可能其他操作系统也行，没配置过
 
 快速示例命令（conda）
 1. 创建并激活 conda 环境，安装依赖：
