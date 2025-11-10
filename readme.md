@@ -10,7 +10,7 @@
 ## 项目说明
 
 简要说明本项目包含的主要脚本与用途（更简单的版本）：
-- `exp.py`：训练脚本（单次实验/训练），当前不提供命令行参数接口。
+- `exp.py`：单次/多次实验脚本，当前不提供命令行参数接口。
 - `run.sh`：用于重复运行 `exp.py`（简单循环）。
 - `analyze_data.py`：对实验数据进行分析并生成表格与总结（无复杂可选参数）。
 - `experiment_results/`：存放训练输出（主要为表格和总结文件）。
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 （若需特定 CUDA 版本或用 conda 安装深度学习框架，请根据项目要求使用 conda-forge 或官方安装命令，例如使用 `conda install pytorch cudatoolkit=11.7 -c pytorch` 等。）
 
-2. 单次训练（当前目录下）：
+2. 单次/多次实验（当前目录下）：
 ```
 python exp.py
 ```
@@ -37,7 +37,7 @@ python exp.py
 ```
 CUDA_VISIBLE_DEVICES=0 python exp.py
 ```
-4. 批量/重复运行（确保有执行权限）：
+4. 重复运行（确保有执行权限）：
 ```
 chmod +x run.sh
 bash run.sh
